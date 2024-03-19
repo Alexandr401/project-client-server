@@ -1,0 +1,30 @@
+.block-chat{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.chat-search{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    width: 90%;
+    position: relative;
+}
+
+.chat-position {
+    position: absolute;
+    bottom: 50px;
+    width: 80%;
+}
+
+.icon-bar{
+    margin: auto 0;
+    font-size: 30px;
+}

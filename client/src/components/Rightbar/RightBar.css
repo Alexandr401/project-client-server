@@ -1,0 +1,17 @@
+.block-right-bar{
+    width: 15%;
+    height: 100vh;
+    background: #cbc8db;
+    overflow: hidden; /* Скрыть содержимое, которое не влезает */
+    animation-duration: 0.5s; /* Длительность анимации */
+    animation-name: hideRightBar;
+}
+
+@keyframes hideRightBar {
+    from {
+        width: 0; /* Начальная ширина */
+    }
+    to {
+        width: 15%; /* Конечная ширина */
+    }
+}
